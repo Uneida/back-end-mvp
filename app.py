@@ -35,3 +35,6 @@ def root():
 register_preference_routes(app)
 register_user_routes(app)
 register_wine_routes(app)
+
+if __name__ == "__main__":
+    app.run(debug=True)
