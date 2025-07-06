@@ -1,0 +1,62 @@
+**/__pycache__/
+
+/db.*
+/.venv
+/log
+# Bytecode e arquivos de cache
+
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+.env/
+.venv/
+env/
+venv/
+ENV/
+VENV/
+
+# Arquivos de log e banco de dados local
+*.log
+*.sqlite3
+
+# Configs de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de testes
+.coverage
+.tox/
+.nox/
+pytest_cache/
+htmlcov/
+
+# Arquivos de distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração pessoal
+*.env
+*.local
+.env.*
+
+# Cache de dependências
+pip-wheel-metadata/
+__pypackages__/
+
+# Arquivos do mypy
+.mypy_cache/
+
+# Arquivos do PyInstaller
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
